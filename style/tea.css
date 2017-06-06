@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;   /*Please note that seashell does not render properly on my machine and looks like white */
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+/*Header*/
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/*Main content*/
+
+
+.main-content {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+#missionbg {
+    height: 700px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+}
+
+.mission-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mission-content {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/*Tea Container*/
+
+#tom {
+    height: 700px;
+    width: 1000px;
+    padding-top: 70px;
+    margin: auto;
+}
+
+.tea-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+/*Locations flex boxes*/
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+}
+
+#locations .flex-container {
+    width: 1100px;
+    margin: auto;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+/*Content flex*/
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loca-content {
+    opacity: 1;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 20px;
+    border: 1px solid #FFF5EE;
+}
+
+/*Contact info*/
+
+#contact {
+    height: 200px;
+}
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
